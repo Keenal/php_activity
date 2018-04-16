@@ -93,7 +93,15 @@ class Gadget {
 	
 	/** Implement the getCost function here. */
 	
+	public function getCost() {
+		return $this->getCost;
+	}
+	
 	/** Implement the getManufacturer function here. */
+	
+	public function getManufacturer() {
+		return $this->getManufacturer;
+	}
 	
 	/** Returns the name of the gadget */
     public function getName()

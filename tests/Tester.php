@@ -36,7 +36,17 @@ class Tester extends PHPUnit_Framework_TestCase
     }
 
     /** Implement the testCost method below */
+	
+	public function testCost(){
+		$this->testSetup();
+		$this->assertEquals($this->test->getCost(), "1300");
+	}
     /** Implement the testManufacturer method below */
+	
+	public function testManufacturer(){
+		$this->testSetup();
+		$this->assertEquals($this->test->getManufacturer(), "Alienware");
+	}
 		
     /** Testing the image methods using the database */
     public function testImage()
