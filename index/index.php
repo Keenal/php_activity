@@ -12,7 +12,7 @@
 	<div id="big_wrapper">
 
 
-	<header id="header">VCDEP is .</header>
+	<header id="header">VCDEP, work this time.</header>
 	<!-- Displaying the navigation bar -->
 	<nav id="navigation">
 		<ul>Home</ul>
